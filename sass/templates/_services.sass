@@ -1,0 +1,131 @@
+.services
+  background: #efefee
+  padding: 240px 80px 100px
+  &__title
+    margin-bottom: 60px
+  &__row
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    gap: 24px
+    margin-bottom: 28px
+  &__grid
+    display: grid
+    grid-template: 1fr 1fr 1fr / repeat(4, 1fr)
+    gap: 28px 24px
+  &__card
+    padding: 60px
+    &--1
+      background: #d8d0cb
+    &--2
+      background: #efefee
+      .services__card__button
+        max-width: 485px
+    &--3
+      background: #d8d0cb
+      padding: 60px 96px
+    &--4
+      padding: 0 0 60px 0
+      background: #d8d0cc
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      picture
+        display: flex
+        justify-content: flex-end
+    &--5
+      grid-area: 1/1/2/3
+      background: url('../img/services/card5.jpg') no-repeat center/cover
+    &--6
+      grid-area: 1/3/2/5
+      background: url('../img/services/card6.jpg') no-repeat center/cover
+    &--7
+      background: #d8d0cc
+    &--8
+      background: url('../img/services/card8.jpg') no-repeat center top/cover
+    &--9
+      background: url('../img/services/card9.jpg') no-repeat center/cover
+    &--10
+      background: url('../img/services/card10.jpg') no-repeat center/cover
+    &--11
+      background: #d8d0cc
+    &--12
+      background: url('../img/services/card12.jpg') no-repeat left top/cover
+    &--13
+      background: url('../img/services/card13.jpg') no-repeat center top/cover
+    &--14
+      background: url('../img/services/card14.jpg') no-repeat center top/cover
+    &--button
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    &--img
+      color: #fff
+      padding: 180px 60px
+      .services__card__box
+        margin: 0
+
+    &__subtitle
+      font-size: 27px
+      letter-spacing: -0.02em
+      text-transform: uppercase
+      &--upper
+        text-transform: uppercase
+    &__info
+      font-size: 21px
+      line-height: 140%
+      text-align: center
+      opacity: 0.5
+    &__ok
+      width: 48px
+      height: 48px
+      border-radius: 50%
+      border: 2px solid #210a0b
+      display: flex
+      align-items: center
+      justify-content: center
+      margin: 0 auto 85px
+    &__button
+      max-width: none
+      &--4
+        border: 1px solid #e2dbe4
+        background: transparent
+        box-shadow: none
+        padding: 24px
+        width: auto
+        margin: 0 auto
+    &__box
+      margin-bottom: 45px
+    &__title
+      font-weight: 900
+      font-size: 36px
+      letter-spacing: -0.02em
+      text-transform: uppercase
+      margin-bottom: 36px
+      &--m-12
+        margin-bottom: 12px
+    &__text
+      font-size: 27px
+      line-height: 120%
+      letter-spacing: -0.02em
+      margin-bottom: 60px
+      &--last
+        margin-bottom: 0
+      &--upper
+        text-transform: uppercase
+        opacity: 0.5
+      &--center
+        text-align: center
+      span
+        font-weight: 700
+    &__ul
+      list-style-type: none
+    &__li
+      font-size: 27px
+      line-height: 120%
+      letter-spacing: -0.02em
+      margin-bottom: 36px
+      display: flex
+      align-items: center
+      gap: 12px
+      &:last-child
+        margin-bottom: 0

@@ -1,0 +1,72 @@
+.main
+  background: url('../img/main/bg.jpg') no-repeat center top/cover
+  position: relative
+  color: #fff
+  overflow: hidden
+  &__container
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100%
+    max-height: 1980px
+    min-height: calc(100vh + 1px)
+    padding: 175px 0 20px
+  &__title
+    font-weight: 900
+    font-size: 82px
+    letter-spacing: 0.01em
+    text-transform: uppercase
+  &__subtitle
+    font-weight: 300
+    font-size: 50px
+    letter-spacing: 0.02em
+    text-transform: uppercase
+    &--last
+      margin-bottom: 60px
+  &__text-group
+    margin-bottom: 300px
+  &__text
+    font-weight: 400
+    font-size: 36px
+    letter-spacing: -0.02em
+    text-transform: uppercase
+    margin-bottom: 24px
+    &:last-child
+      margin-bottom: 0
+    span
+      font-weight: 900
+    &--transform
+      transform: translateX(41px)
+  &__button-group
+    width: 100%
+    max-width: 575px
+  &__button
+    font-size: 21px
+    padding: 28px 0
+    max-width: none
+    &--transparent
+      background: transparent
+      border: 1px solid #fff
+      &:hover
+        color: #210a0b
+    &--white
+      background: #fff
+      border: 1px solid #fff
+      color: #210a0b
+      margin-bottom: 36px
+      &:hover
+        background: transparent
+        color: #fff
+  &__down
+    width: 32px
+    height: 56px
+    border-radius: 40px
+    background: rgba(255, 255, 255, 0.2)
+    backdrop-filter: blur(14px)
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.12)
+    display: none
+    gap: 2px
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin: 32px auto 0

@@ -1,0 +1,94 @@
+
+@import "2560"
+
+@media screen and (max-width: 1920px)
+  .section
+    padding-left: 20px
+    padding-right: 20px
+  .container
+    max-width: 1600px
+    //settings
+
+  .simple
+    &__box
+      max-width: 640px
+    &__button
+      &--transparent
+        padding: 17px 30px
+
+@import "1440"
+
+@import "1024"
+
+@import "991"
+
+@media screen and (max-width: 767px)
+  .services
+    &__row
+      grid-template: auto auto auto / 1fr 1fr
+    &__card
+      padding: 46px 24px
+      &--1
+        grid-area: 3/1/4/3
+      &--2
+        grid-area: 1/1/2/3
+        padding: 0
+      &--3
+        padding: 24px 5px 18px
+      &--4
+        padding: 0 0 30px 0
+
+      &__info
+        max-width: 130px
+        font-size: 10px
+      &__ok
+        margin: 0 auto 40px
+      &__text
+        margin-bottom: 20px
+        &--upper
+          font-size: 12px
+        &--last
+          margin-bottom: 0
+      &__button
+        margin: 0 auto
+        &--1
+          max-width: 175px
+        &--4
+          padding: 16px 0
+          max-width: none
+          width: calc(100% - 10px)
+
+  .simple
+    &__button
+      &--transparent
+        display: none
+      &--m
+        display: block
+    &__more
+      display: flex
+    &__wrap
+      overflow: hidden
+      margin-bottom: 30px
+      height: 0
+      &--open
+        height: auto
+    &__title
+      margin-bottom: 80px
+    &__container
+      max-width: 300px
+    &__button-group
+      margin-top: 0
+
+  .main
+    background: url('../img/main/bg.jpg') no-repeat calc(50% + 50px) top/cover
+    &__container
+      align-items: stretch
+      justify-content: center
+      padding: 111px 0 12px
+    &__box
+      display: flex
+      flex-direction: column
+    &__button-group
+      margin-top: auto
+    &__down
+      display: flex

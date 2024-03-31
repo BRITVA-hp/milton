@@ -1,0 +1,72 @@
+.header
+  backdrop-filter: blur(291px)
+  padding: 36px 80px
+  position: relative
+  z-index: 2
+  margin-bottom: -135px
+  &__burger
+    width: 24px
+    height: 14px
+    display: none
+    flex-direction: column
+    justify-content: space-between
+    &__line
+      width: 100%
+      height: 2px
+      border-radius: 1px
+      background: #f5f5f5
+      cursor: pointer
+  &__calc
+    border: 1px solid #ffffff
+    border-top: none
+    border-bottom: none
+    padding: 0 22px
+    display: flex
+    align-items: center
+    height: 100%
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__box
+    display: flex
+    align-items: stretch
+    gap: 22px
+  &__button-group
+    display: flex
+    gap: 22px
+  &__button
+    background: transparent
+    border: 1px solid #fff
+    box-shadow: none
+    max-width: none
+    width: auto
+    padding: 18px 36px
+  &__nav
+    display: flex
+    align-items: center
+    gap: 22px
+  &__link, &__lang
+    font-size: 21px
+    text-transform: uppercase
+    color: #fff
+    display: flex
+    flex-direction: column
+    gap: 9px
+    align-items: center
+    justify-content: center
+    text-decoration: none
+    padding-top: 13px
+    height: 100%
+    img
+      transition: 0.3s
+    &:hover
+      img
+        transform: translateY(3px)
+  &__lang
+    height: auto
+    cursor: pointer
+    border: 1px solid #ffffff
+    border-top: none
+    border-bottom: none
+    padding: 13px 22px 0

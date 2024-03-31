@@ -1,0 +1,56 @@
+.simple
+  padding: 320px 80px
+  &__more
+    display: none
+    align-items: center
+    gap: 10px
+    font-weight: 700
+    font-size: 12px
+    line-height: 120%
+    letter-spacing: -0.02em
+    text-transform: uppercase
+    cursor: pointer
+    margin-bottom: 30px
+    span
+      opacity: 0.5
+      white-space: nowrap
+    &__line
+      height: 1px
+      background: #decabe
+      width: 100%
+  &__row
+    display: flex
+    justify-content: space-between
+  &__title
+    font-weight: 900
+    font-size: 54px
+    letter-spacing: -0.02em
+    margin-bottom: 45px
+  &__box
+    width: calc(50% - 25px)
+    max-width: 1280px
+  &__text
+    font-size: 27px
+    line-height: 150%
+    letter-spacing: -0.02em
+    margin-bottom: 45px
+    &--last
+      margin-bottom: 0 !important
+    span
+      text-decoration: underline
+      font-weight: 500
+      text-decoration-skip-ink: none
+  &__button
+    max-width: none
+    line-height: 130%
+    &--m
+      display: none
+    &--transparent
+      background: transparent
+      border: 1px solid #210a0b
+      color: #210a0b
+      margin-bottom: 45px
+  &__button-group
+    display: flex
+    gap: 25px
+    margin-top: 45px

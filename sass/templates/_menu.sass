@@ -1,0 +1,91 @@
+.menu
+  position: fixed
+  z-index: 199
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  display: none
+  align-items: flex-start
+  justify-content: center
+  background: linear-gradient(0deg, rgba(0, 17, 37, 0.4), rgba(0, 17, 37, 0.4))
+  backdrop-filter: blur(10px)
+  opacity: 0
+  visibility: hidden
+  transition: 0.3s
+  overflow: auto
+  &--active
+    opacity: 1
+    visibility: visible
+    .menu__dialog
+      transform: none
+  &__container
+    width: 100%
+    display: flex
+    align-items: flex-end
+    min-height: 100%
+    justify-content: center
+    padding: 20px 20px 0
+  &__dialog
+    transition: 0.3s
+    transition-delay: 0.3s
+    transform: translateY(100%)
+    backdrop-filter: blur(40px)
+    box-shadow: 4px 0 32px 0 rgba(0, 0, 0, 0.12)
+    background: linear-gradient(180deg, #fdfbfb 0%, #fff 0.55%, #f1f1f1 23.85%, #eee 79.92%, #eee 93.23%, #fff 95.32%, #eee 97.4%, #eee 97.64%), rgba(255, 255, 255, 0.7)
+    border-radius: 24px 24px 0 0
+    padding: 60px 20px 40px
+    width: 100%
+    max-width: 430px
+    position: relative
+  &__close
+    position: absolute
+    right: 26px
+    top: 20px
+    cursor: pointer
+  &__header
+    display: flex
+    justify-content: space-between
+    margin-bottom: 40px
+  &__logo
+    width: 167px
+  &__link
+    margin-bottom: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-size: 14px
+    text-transform: uppercase
+    color: #210a0b
+    text-decoration: none
+    gap: 5px
+  &__lang
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    border: 1px solid #210a0b
+    border-top: none
+    border-bottom: none
+    padding: 5px 8px
+    font-size: 14px
+  &__calc
+    display: flex
+    justify-content: center
+    margin-bottom: 30px
+    img
+      padding: 5px 8px
+      border: 1px solid #210a0b
+      border-top: none
+      border-bottom: none
+  &__button
+    font-size: 14px
+    box-shadow: none
+    max-width: none
+    padding: 12px 24px
+    margin-bottom: 10px
+    background: transparent
+    border: 1px solid #210a0b
+    color: #210a0b
+    &--last
+      margin-bottom: 0

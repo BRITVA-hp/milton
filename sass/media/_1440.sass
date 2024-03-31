@@ -1,0 +1,52 @@
+@media screen and (max-width: 1440px)
+  .simple
+    padding: 100px 20px
+    &__row
+      gap: 80px
+      flex-direction: column
+      align-items: center
+    &__box
+      width: 100%
+      max-width: 900px
+
+  .services
+    padding: 80px 20px 0
+    &__container
+      max-width: 900px
+    &__row
+      display: grid
+      grid-template: auto auto / 1fr 1fr
+      gap: 18px 16px
+    &__card
+      &--1
+        grid-area: 1/2/2/3
+      &--2
+        padding: 0 0 40px 0
+        grid-area: 1/1/2/2
+        .services__card__button
+          max-width: none
+
+  .frankly
+    &__button
+      font-size: 18px
+      max-width: none
+      width: max-content
+      padding: 17px 38px
+    &__box
+      padding: 0 45px 0 55px
+    &__title
+      font-size: 44px
+
+  .menu
+    display: flex
+
+  .main
+    &__container
+      padding: 111px 0 20px
+
+  .header
+    margin-bottom: -71px
+    &__box
+      display: none
+    &__burger
+      display: flex
