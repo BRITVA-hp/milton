@@ -1129,6 +1129,69 @@ body {
   margin-bottom: 0;
 }
 
+.dubai {
+  padding: 160px 80px 80px;
+  background: #f5f5f5;
+}
+.dubai__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.dubai__card {
+  color: #ffffff;
+  background: #c52e25;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: space-between;
+  padding: 40px 55px;
+}
+.dubai__card--red {
+  color: #c52e25;
+  background: #fff;
+}
+.dubai__card--green {
+  background: #ffffff;
+  color: #25d366;
+}
+.dubai__card__title {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.dubai__card__title--big {
+  font-weight: 900;
+  font-size: 49px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.dubai__card__text {
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+.dubai__card__text--last {
+  margin-bottom: 0;
+}
+.dubai__card__text span {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 900;
+  display: inline-block;
+}
+.dubai__card__icon {
+  align-self: center;
+}
+.dubai__card__button {
+  max-width: none;
+  padding: 17px 0;
+}
+
 .modal {
   position: fixed;
   z-index: 199;
@@ -1276,6 +1339,9 @@ body {
     max-width: 374px;
     font-size: 24px;
     padding: 17px 0;
+  }
+  .dubai__card__button {
+    font-size: 18px;
   }
   .services {
     padding: 160px 80px 70px;
@@ -1534,6 +1600,23 @@ body {
   }
 }
 @media screen and (max-width: 1440px) {
+  .dubai {
+    padding: 80px 20px;
+  }
+  .dubai__container {
+    max-width: 900px;
+  }
+  .dubai__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 20px;
+  }
+  .dubai__card {
+    width: calc(50% - 10px);
+  }
+  .dubai__card--red, .dubai__card--green {
+    width: 100%;
+  }
   .simple {
     padding: 100px 20px;
   }
@@ -1626,6 +1709,45 @@ body {
   .container {
     max-width: 700px;
   }
+  .dubai {
+    padding: 28px 20px;
+    background: #fff;
+  }
+  .dubai__card {
+    padding: 18px;
+    gap: 25px;
+  }
+  .dubai__card--red {
+    padding: 52px 18px 40px;
+    align-items: center;
+  }
+  .dubai__card--red .dubai__card__box {
+    max-width: 400px;
+  }
+  .dubai__card--green {
+    padding: 40px 18px;
+    background: #f5f5f5;
+    align-items: center;
+  }
+  .dubai__card--green .dubai__card__box {
+    max-width: 300px;
+  }
+  .dubai__card__button {
+    max-width: 300px;
+  }
+  .dubai__card__title {
+    font-size: 18px;
+  }
+  .dubai__card__title--big {
+    text-align: center;
+  }
+  .dubai__card__text {
+    font-size: 14px;
+  }
+  .dubai__card__text span {
+    text-transform: none;
+    margin-bottom: 20px;
+  }
   .services__title {
     margin-bottom: 24px;
   }
@@ -1693,6 +1815,22 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .dubai {
+    padding: 0;
+  }
+  .dubai__row {
+    justify-content: center;
+  }
+  .dubai__card {
+    width: calc(50% - 30px);
+  }
+  .dubai__card--red {
+    padding: 80px 18px 40px;
+    width: 100%;
+  }
+  .dubai__card--green {
+    width: 100%;
+  }
   .services {
     overflow: hidden;
   }
@@ -1785,5 +1923,16 @@ body {
   }
   .main__down {
     display: flex;
+  }
+}
+@media screen and (max-width: 575px) {
+  .dubai__card--red .dubai__card__box {
+    max-width: 336px;
+  }
+  .dubai__card--green .dubai__card__box {
+    max-width: 200px;
+  }
+  .dubai__card__button {
+    max-width: 200px;
   }
 }
