@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a325875-3f21-4ba5-91fd-f62588f323e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/templates/_dubai.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/media/_767.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/templates/_steps.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media/_2560.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_2560.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_media.sass" afterDir="false" />
@@ -79,7 +80,7 @@
       <workItem from="1711749049562" duration="2409000" />
       <workItem from="1711810476565" duration="23219000" />
       <workItem from="1711887959834" duration="21023000" />
-      <workItem from="1711995909970" duration="4437000" />
+      <workItem from="1711995909970" duration="7067000" />
     </task>
     <servers />
   </component>
