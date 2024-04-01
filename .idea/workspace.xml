@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a325875-3f21-4ba5-91fd-f62588f323e8" name="Changes" comment="" />
+    <list default="true" id="6a325875-3f21-4ba5-91fd-f62588f323e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_2560.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_2560.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_services.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
@@ -65,7 +77,8 @@
       <workItem from="1696422847855" duration="617000" />
       <workItem from="1711749049562" duration="2409000" />
       <workItem from="1711810476565" duration="23219000" />
-      <workItem from="1711887959834" duration="20754000" />
+      <workItem from="1711887959834" duration="21023000" />
+      <workItem from="1711995909970" duration="1602000" />
     </task>
     <servers />
   </component>

@@ -1041,6 +1041,8 @@ body {
 .services__card--img {
   color: #fff;
   padding: 180px 60px;
+  display: flex;
+  align-items: center;
 }
 .services__card--img .services__card__box {
   margin: 0;
@@ -1048,7 +1050,6 @@ body {
 .services__card__subtitle {
   font-size: 27px;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
 }
 .services__card__subtitle--upper {
   text-transform: uppercase;
@@ -1299,6 +1300,12 @@ body {
   .services__card--4 {
     padding: 0 0 40px 0;
   }
+  .services__card--img {
+    padding: 150px 40px;
+  }
+  .services__card__subtitle {
+    font-size: 18px;
+  }
   .services__card__li {
     font-size: 18px;
     gap: 8px;
@@ -1332,6 +1339,9 @@ body {
     font-size: 24px;
     margin-bottom: 24px;
   }
+  .services__card__title--m-12 {
+    margin-bottom: 8px;
+  }
   .services__card__text {
     font-size: 18px;
     margin-bottom: 40px;
@@ -1345,6 +1355,9 @@ body {
   .services__row {
     gap: 16px;
     margin-bottom: 18px;
+  }
+  .services__grid {
+    gap: 18px 16px;
   }
   .simple {
     padding: 160px 80px 100px;
@@ -1544,6 +1557,9 @@ body {
     grid-template: auto auto/1fr 1fr;
     gap: 18px 16px;
   }
+  .services__grid {
+    grid-template: repeat(5, 1fr)/1fr 1fr;
+  }
   .services__card--1 {
     grid-area: 1/2/2/3;
   }
@@ -1553,6 +1569,9 @@ body {
   }
   .services__card--2 .services__card__button {
     max-width: none;
+  }
+  .services__card--5, .services__card--6 {
+    grid-area: auto;
   }
   .frankly__button {
     font-size: 18px;
@@ -1599,11 +1618,25 @@ body {
   .button {
     font-size: 14px;
   }
+  .button--transparent {
+    padding: 8px 0;
+    color: #fff;
+    background: #210a0b;
+  }
   .container {
     max-width: 700px;
   }
   .services__title {
     margin-bottom: 24px;
+  }
+  .services__card--img {
+    padding: 46px 24px;
+  }
+  .services__card__title--m-12 {
+    font-size: 18px;
+  }
+  .services__card__subtitle {
+    font-size: 14px;
   }
   .main__container {
     max-width: none;
@@ -1660,6 +1693,9 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .services {
+    overflow: hidden;
+  }
   .services__row {
     grid-template: auto auto auto/1fr 1fr;
   }
