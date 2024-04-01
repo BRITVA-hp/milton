@@ -1264,6 +1264,102 @@ body {
   text-align: center;
 }
 
+.client {
+  padding: 160px 80px;
+}
+.client__title {
+  margin-bottom: 80px;
+}
+.client__box {
+  display: flex;
+  gap: 24px;
+}
+.client__row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr 1fr;
+  gap: 24px;
+}
+.client__card {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 24px;
+}
+.client__card--1 {
+  background: url("../img/client/card1.jpg") no-repeat center top/cover;
+}
+.client__card--2 {
+  background: url("../img/client/card2.jpg") no-repeat center top/cover;
+  width: 430px;
+  height: 480px;
+}
+.client__card--3 {
+  color: #210a0b;
+  width: 264px;
+  padding: 100px 24px 0 0;
+  align-items: flex-start;
+}
+.client__card--4 {
+  background: url("../img/client/card4.jpg") no-repeat center top/cover;
+}
+.client__card--5 {
+  background: url("../img/client/card5.jpg") no-repeat center top/cover;
+}
+.client__card--5 img {
+  margin-left: auto;
+}
+.client__card--center {
+  justify-content: center;
+}
+.client__card__title {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.client__card__title--min {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.client__card__title--min span {
+  display: block;
+  text-align: right;
+}
+.client__card__subtitle {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.client__card__text {
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin-bottom: 50px;
+}
+.client__card__name {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.line {
+  padding: 80px;
+  background: #b2a298;
+}
+.line__button {
+  display: block;
+  margin: auto;
+  box-shadow: none;
+  border: 1px solid #e2dbd4;
+  background: transparent;
+  padding: 24px 48px;
+  width: auto;
+  font-size: 24px;
+}
+
 .modal {
   position: fixed;
   z-index: 199;
@@ -1411,6 +1507,9 @@ body {
     max-width: 374px;
     font-size: 24px;
     padding: 17px 0;
+  }
+  .line__button {
+    padding: 24px 48px;
   }
   .steps__card {
     padding: 30px 48px 86px;
@@ -1675,6 +1774,21 @@ body {
   }
 }
 @media screen and (max-width: 1440px) {
+  .client__container {
+    max-width: 900px;
+  }
+  .client__row {
+    grid-template: 1fr 1fr/1fr 1fr 1fr;
+  }
+  .client__box {
+    grid-area: 1/1/2/4;
+  }
+  .client__card--2 {
+    width: 100%;
+  }
+  .client__card--3 {
+    min-width: 264px;
+  }
   .dubai {
     padding: 80px 20px;
   }
@@ -1783,6 +1897,57 @@ body {
   }
   .container {
     max-width: 700px;
+  }
+  .line__button {
+    font-size: 24px;
+    padding: 17px 48px;
+  }
+  .client {
+    padding: 48px 20px;
+  }
+  .client__row {
+    gap: 16px;
+  }
+  .client__title {
+    margin-bottom: 28px;
+  }
+  .client__box {
+    gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .client__card {
+    padding: 6px;
+  }
+  .client__card--2 {
+    grid-area: 1/1/2/3;
+  }
+  .client__card--2 .client__card__title {
+    font-size: 18px;
+  }
+  .client__card--2 .client__card__subtitle {
+    font-size: 16px;
+  }
+  .client__card--3 {
+    padding: 50px 6px 0 0;
+    min-width: 0;
+    width: auto;
+  }
+  .client__card__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .client__card__title--min {
+    font-size: 16px;
+  }
+  .client__card__text {
+    font-size: 14px;
+  }
+  .client__card__name {
+    font-size: 12px;
+  }
+  .client__card__subtitle {
+    font-size: 12px;
   }
   .steps {
     padding: 80px 20px 50px;
@@ -2028,6 +2193,12 @@ body {
   }
 }
 @media screen and (max-width: 575px) {
+  .client__box {
+    display: block;
+  }
+  .client__card--3 {
+    display: none;
+  }
   .dubai__card--red .dubai__card__box {
     max-width: 336px;
   }

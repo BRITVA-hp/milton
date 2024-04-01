@@ -12,6 +12,45 @@
     max-width: 700px
   //settings
 
+  .line
+    &__button
+      font-size: 24px
+      padding: 17px 48px
+
+  .client
+    padding: 48px 20px
+    &__row
+      gap: 16px
+    &__title
+      margin-bottom: 28px
+    &__box
+      gap: 16px
+      display: grid
+      grid-template-columns: 1fr 1fr 1fr
+    &__card
+      padding: 6px
+      &--2
+        grid-area: 1/1/2/3
+        .client__card__title
+          font-size: 18px
+        .client__card__subtitle
+          font-size: 16px
+      &--3
+        padding: 50px 6px 0 0
+        min-width: 0
+        width: auto
+      &__title
+        font-size: 16px
+        margin-bottom: 5px
+        &--min
+          font-size: 16px
+      &__text
+        font-size: 14px
+      &__name
+        font-size: 12px
+      &__subtitle
+        font-size: 12px
+
   .steps
     padding: 80px 20px 50px
     &__title

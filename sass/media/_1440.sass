@@ -1,4 +1,17 @@
 @media screen and (max-width: 1440px)
+  .client
+    &__container
+      max-width: 900px
+    &__row
+      grid-template: 1fr 1fr / 1fr 1fr 1fr
+    &__box
+      grid-area: 1/1/2/4
+    &__card
+      &--2
+        width: 100%
+      &--3
+        min-width: 264px
+
   .dubai
     padding: 80px 20px
     &__container
