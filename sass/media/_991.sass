@@ -12,6 +12,50 @@
     max-width: 700px
   //settings
 
+  .footer
+    &__footer
+      flex-direction: column-reverse
+      align-items: center
+      gap: 40px
+    &__container
+      max-width: 375px
+    &__row
+      display: flex
+      flex-direction: column
+    &__box
+      display: flex
+      flex-direction: column
+
+  .news
+    padding: 40px 20px
+    &__title
+      margin-bottom: 30px
+    &__box
+      &--1
+        grid-template: 1fr / 2fr 1fr
+      &--2
+        grid-template: 1fr / 1fr 2fr
+    &__card
+      padding: 80px 8px 24px
+      &--1, &--4
+        padding: 20px 8px
+        .news__card__title
+          font-weight: 450
+          font-size: 12px
+      &--1
+        grid-area: 1/2/2/3
+      &--4
+        grid-area: 1/1/2/2
+      &--white
+        padding: 24px
+      &__content
+        max-width: none
+        width: 100%
+      &__header
+        margin-bottom: 20px
+      &__box
+        margin-bottom: 30px
+
   .line
     &__button
       font-size: 24px

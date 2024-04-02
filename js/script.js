@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (triggers_.length > 0) {
       triggers_.forEach(item => {
         item.addEventListener('click', function() {
-          modal_.querySelector('h3').textContent = this.getAttribute('data-modal-title') || 'Оставьте заявку и мы свяжемся с вами !'
           modal_.classList.add(modalActiveClass);
           document.body.style.overflow = 'hidden';
           document.body.style.marginRight = `${scrollWidth}px`;
@@ -47,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   }
-  // modal('.modal', 'modal--active', '[data-modal]', '.modal__close')
+  modal('.modal-main', 'modal--active', '[data-modal]', '.modal-main__close')
 
 
   // menu
@@ -133,5 +132,30 @@ document.addEventListener('DOMContentLoaded', () => {
   function hide(elem, progress, height) {
     elem.style.height = (1 - progress) * height + 'px'
   }
+
+
+  // const main = document.querySelector('.main')
+  // const top = document.querySelector('.top')
+  //
+  // const options = {
+  //   root: main,
+  //   rootMargin: "0px",
+  //   threshold: 1.0,
+  // };
+  // const callback = function (entries, observer) {
+  //   entries.forEach((entry) => {
+  //     // entry.time; // a DOMHightResTimeStamp indicating when the intersection occurred.
+  //     // entry.rootBounds; // a DOMRectReadOnly for the intersection observer's root.
+  //     // entry.boundingClientRect; // a DOMRectReadOnly for the intersection observer's target.
+  //     // entry.intersectionRect; // a DOMRectReadOnly for the visible portion of the intersection observer's target.
+  //     // entry.intersectionRatio; // the number for the ratio of the intersectionRect to the boundingClientRect.
+  //     // entry.target; // the Element whose intersection with the intersection root changed.
+  //     // entry.isIntersecting; // intersecting: true or false
+  //     console.log(entry)
+  //   });
+  // };
+  // const observer = new IntersectionObserver(callback, options);
+  //
+  // observer.observe(top)
 
 })
