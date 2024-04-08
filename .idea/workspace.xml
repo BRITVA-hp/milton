@@ -7,13 +7,9 @@
     <list default="true" id="6a325875-3f21-4ba5-91fd-f62588f323e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_2560.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_2560.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_modal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_client.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_client.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_news.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_news.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_steps.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_steps.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
       <workItem from="1711995909970" duration="11910000" />
       <workItem from="1712073523990" duration="14446000" />
       <workItem from="1712174033375" duration="110000" />
-      <workItem from="1712565356896" duration="1352000" />
+      <workItem from="1712565356896" duration="1861000" />
     </task>
     <servers />
   </component>

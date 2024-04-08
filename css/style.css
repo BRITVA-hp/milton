@@ -1239,7 +1239,7 @@ body {
 }
 
 .steps {
-  padding: 160px 80px;
+  padding: 160px 80px 80px;
 }
 .steps__title {
   margin-bottom: 80px;
@@ -1310,7 +1310,7 @@ body {
 }
 
 .client {
-  padding: 160px 80px;
+  padding: 80px 80px 160px;
 }
 .client__title {
   margin-bottom: 80px;
@@ -1442,6 +1442,7 @@ body {
 }
 .news__card--white .news__card__more {
   align-self: flex-end;
+  color: #210a0b;
 }
 .news__card--dark {
   background: url("../img/news/bgDark.jpg") no-repeat center/cover;
@@ -1490,7 +1491,7 @@ body {
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;
-  color: #210a0b;
+  color: #fff;
 }
 .news__card__more span {
   font-weight: 900;
